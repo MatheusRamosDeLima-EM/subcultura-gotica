@@ -1,0 +1,43 @@
+main h1 {
+    font-size: 40px;
+    padding-block: 15px;
+    font-family: 'Nova Square', sans-serif;
+    text-align: center;
+}
+
+main section {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1200px;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-list {
+    padding: 5px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.main-list li {
+    font-size: 20px;
+}
+
+.second-list {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style-type: disc;
+}
+
+.second-list a {
+    color: rgb(85, 139, 240);
+}
